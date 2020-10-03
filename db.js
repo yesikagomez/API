@@ -6,10 +6,12 @@ module.exports = () => {
     cliente: [
       {
         id: 1,
-        state: "active",
-        title: Faker.lorem.words(),
-        description: Faker.lorem.paragraphs(),
-        image: Faker.image.imageUrl()
+        nombrecliente: "Isabel Montoya",
+        nombreempresa: "Mercados al Paso",
+        numempleados: "3",
+        annoslaborando: "5",
+        correo: "yesika.go@hotmail.com",
+        contrasenna: "123456"
       }
     ],
     diagnostico:[],

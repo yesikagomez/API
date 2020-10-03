@@ -1,27 +1,25 @@
 {
-  "posts": [
+  "cliente": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3,
-      "title": "json",
-      "author": "typicode"
+      "nombrecliente": "Isabel Montoya",
+      "nombreempresa": "Mercados al Paso",
+      "numempleados": 3,
+      "annoslaborando": 5,
+      "correo": "yesika.go@hotmail.com",
+      "contrasenna": "123456"
     }
   ],
-  "comments": [
+  "diagnostico":[],
+  "citas":[],
+  "usuarios":[
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "type": "Administrador"
+    },
+    {
+      "id": 2,
+      "type": "Cliente"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
