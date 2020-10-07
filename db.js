@@ -15,7 +15,14 @@ module.exports = () => {
       }
     ],
     diagnostico:[],
-    citas:[],
+    citas:[
+      {
+        nombrecliente: "jesus",
+        nombreempresa: "venga y compre",
+        fecha: "miércoles, 7 de octubre de 2020",
+        hora: "04 : 30 PM",
+      }
+    ],
     usuarios:[
       {
         id: 1,
